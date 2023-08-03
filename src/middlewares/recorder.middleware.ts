@@ -1,5 +1,6 @@
 import { NextFunction, Response } from "express";
 import { createRecord } from "../utils/airtable.util";
+
 const recorderMiddleware = async (
   req: any,
   res: Response,
@@ -22,4 +23,5 @@ const recorderMiddleware = async (
   }
   next();
 };
+
 export default recorderMiddleware;
