@@ -69,6 +69,6 @@ This endpoint returns a JSON response containing the session data stored in Airt
 ## Error Handling
 The application includes proper error handling to display appropriate error messages in case any errors occur. Error messages are logged to the console and can be customized in the code if needed.
 
-##License
+## License
 This project is licensed under the MIT License.
 
